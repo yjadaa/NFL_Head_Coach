@@ -40,7 +40,7 @@ namespace NFL_Head_Coach
             // Access the image file with bitmap
             BitmapImage bitmap = new BitmapImage();
             bitmap.BeginInit();
-            bitmap.UriSource = new Uri(@"C:\Users\Student\Desktop\NFL Head Coach\NFL Head Coach\NFL Head Coach\Images\player.png");
+            bitmap.UriSource = new Uri(@"..\Images\player.png");
             bitmap.EndInit();
             // Assign the bitmap to the image
             PlayerImage = new Image();
