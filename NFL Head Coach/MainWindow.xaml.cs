@@ -185,7 +185,7 @@ namespace NFL_Head_Coach
             // PlayerImage for team A
             BitmapImage bmp_A = new BitmapImage();
             bmp_A.BeginInit();
-            bmp_A.UriSource = new Uri(@"C:\Users\Student\Desktop\NFL Head Coach\NFL Head Coach\NFL Head Coach\Images\h1.png");
+            bmp_A.UriSource = new Uri(@"Images\h1.png");
             bmp_A.EndInit();
             Image img_A = new Image();
             img_A.Height = 32;
@@ -195,7 +195,7 @@ namespace NFL_Head_Coach
             // PlayerImage for team B
             BitmapImage bmp_B = new BitmapImage();
             bmp_B.BeginInit();
-            bmp_B.UriSource = new Uri(@"C:\Users\Student\Desktop\NFL Head Coach\NFL Head Coach\NFL Head Coach\Images\h2.png");
+            bmp_B.UriSource = new Uri(@"Images\h2.png");
             bmp_B.EndInit();
             Image img_B = new Image();
             img_B.Height = 32;
